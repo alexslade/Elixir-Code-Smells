@@ -418,7 +418,7 @@ ___
       expected result...   
   """
   def update(%Product{count: nil, material: material})
-    when name in ["metal", "glass"] do
+    when material in ["metal", "glass"] do
     # ...
   end
 
